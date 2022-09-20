@@ -1,0 +1,131 @@
+AI  vs  ML  vs  DL 
+Artificial intelligence
+**********************
+	Enable the machine to think any human intervention. The machine will able to take its own decision called Artificial intelligence
+
+Machine Learning 
+*******************
+	statistical tools to explore the data
+	Machine Learning help us to do it provides us statistical tool statistical tool to explore the data
+	 	 #  supervise Learning           
+				will be having some label data  Ex: past data
+		 #  unsupervised Learning 
+				clustering the data   Ex: that based similarity to group that data      Mathematical concepts euclidean distance 
+		 #  Reinforcement Learning  ——  semi supervise 
+				some data’s are labelled and data not labelled 
+
+Deep Learning 
+***************
+		Deep learning is a subset of machine learning how we learning with the help of our human brain Learn thing 
+		deep Learning to mimic human brain 
+		Multiple Neural-network architecture 
+		Ann (artificial neural network)               most of data present form of numbers 
+		cnn  (convolution neural network )       form of input link image 
+		Rnn  (recurrent neural network )           form of data input link time series 
+
+
+Ai Market place
+*****************
+
+Image to text (ocr)
+Image to text OCR (pytesseract, paddleocr) Pan-card, Aadhar-card, Voter-IT, driving licence, passport using   yolo-v5
+
+Voice to text, text to voice, wav to text   
+speechrecognition as sr  sr.Microphone() r = sr.Recognizer() r.adjust_for_ambient_noise(source2, duration=0.2), r.listen, r.recognize_google   pyttsx3.init() = users to com voice  sr.AudioFile == read wav file
+
+Live object tracking
+norfair = tracking objects = box . Distance 
+Yolov5 = object detection
+
+car number plate detection
+Yolov5 = object detection
+Ocr = pytesseract
+
+Live object detection and measurement
+COLOR_BGR2GRAY     =    GaussianBlur = Canny     == image processes 
+findContours            =  object size
+from scipy.spatial import distance as dist  = distance height and  width 
+
+covid x-ray detection
+stock Predictions 
+ImageDataGenerator     rescale,  zoom_range
+Test and train = Dataset classify into target_size=(299, 299), color_mode=" rgb", batch_size=32
+Image_size [224*224]
+Layer creation compile and fit that model
+Create model and save
+Load the model and resize in to 224*224 and predict the 
+
+Face Mask Detection 
+Age and gender 
+Detect human face  retinaface
+Image to Vector Deep face
+
+NLP chatbot 
+Natural Language Toolkit NLTK
+Text preprocessing  or cleaning
+Tokenization  == word tokenize ||  sentence tokenize
+Lemmatization   == study studying 
+Stemming            ==  study only
+Parts of Speech (POS)   ==   ('guru99', 'NN'), ('is', 'VBZ')
+Stopwords removal        ==    it was the which
+Punctuation removal      ==    !()-[]{};:'"\,<>./?@#$%^&*_~
+Word correction == happpy	to happy
+Bag of words  =  	Tokenization      Vectors Creation    ||    Unique words   count vector    
+Words class json   ==  class  into number of words bow 10000,01000,00100 build the model 
+
+Co-optex sales chat-bot
+
+Face Recognition attendance android APK 
+		Face detection Method  Haar Cascade Face Detection , CNN, DNN, MTCNN, Media-pipe
+		Liveness Detection
+		Face to binary encoding  Face recognition, Arc face, Dlip, Face net, Deep face
+		Face Matching  	Euclidean Distance
+
+Open Source Dashboards
+Streamlit, pandas, plotly, ag-grid , html, css
+Upexices	, HIMS, Sales Dashboard
+
+Stream-lit
+***********
+A faster way to build and share data apps
+https://docs.streamlit.io/library/cheatsheet
+
+Pandas
+********
+pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the python programming language
+
+Creating a DataFrame
+	data = {'Name': ['Tom', 'nick', 'Krishna, 'jack'],
+        'Age': [20, 21, 19, 18]}
+	df = pd.DataFrame(data)
+Slicing a DataFram
+        loc                    =====>>  row based filter  ex: result = df.loc[‘row_2, 'Name']
+	iloc                   =====>>  row index label of a data frame  ex: data.iloc[4:8]
+
+Axis = 1
+
+Missing Data
+		drop all elements 
+				df.dropna(axis = 1) == axis 1 = column  axis 0 == row
+	
+		isnull()    notnull()    dropna()      fillna()      replace()     interpolate()
+
+Groupby
+	df.groupby('Team')
+	df.groupby(['Team', 'Position'])
+	df.groupby("state")["last_name"].count()
+	df.groupby(["state", "gender"])["last_name”].reset_index()
+	df.groupby(["state", "gender"], as_index=False)["last_name”] df.groupby("state", sort=False)["last_name"]	
+
+Pandas merge/join
+	concat two dataframe
+	pd.concat([df1, df2])
+	pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
+left_index=False, right_index=False, sort=True)
+
+Pandas Statistics
+sum()   Avarage() 
+Count: df['DataFrame Column'].count() Mean: df['DataFrame Column'].mean() Standard deviation: df['DataFrame Column'].std() Minimum: df['DataFrame Column'].min()
+0.25 Quantile: df['DataFrame Column'].quantile(q=0.25) 0.50 Quantile (Median): df['DataFrame Column'].quantile(q=0.50) 0.75 Quantile:df['DataFrame Column'].quantile(q=0.75)
+Maximum: df['DataFrame Column'].max()
