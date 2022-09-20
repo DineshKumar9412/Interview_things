@@ -129,3 +129,26 @@ sum()   Avarage()
 Count: df['DataFrame Column'].count() Mean: df['DataFrame Column'].mean() Standard deviation: df['DataFrame Column'].std() Minimum: df['DataFrame Column'].min()
 0.25 Quantile: df['DataFrame Column'].quantile(q=0.25) 0.50 Quantile (Median): df['DataFrame Column'].quantile(q=0.50) 0.75 Quantile:df['DataFrame Column'].quantile(q=0.75)
 Maximum: df['DataFrame Column'].max()
+
+
+
+
+inductive learning and deductive learning
+********************************************
+
+* Inductive learning is the method of using observations to draw conclusions
+* Deductive learning is the method of using conclusions to form observations
+
+Overfitting, underfitting and Data leakages
+**********************************************
+Over
+    	Train up
+    	Test low
+Under
+	Train low
+    	Test low
+
+
+Subsets of Artificial Intelligence
+
+￼
