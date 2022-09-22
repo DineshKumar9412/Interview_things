@@ -1194,3 +1194,191 @@ Slowapi
 	4xx: Client Error – This category of error status codes points the finger at clients.
 	5xx: Server Error – The server takes responsibility for these error status codes.
 
+      MAP Document
+*************************
+
+https://towardsdatascience.com/make-beautiful-spatial-visualizations-with-plotly-and-mapbox-fd5a638d6b3c
+
+https://towardsdatascience.com/meet-plotly-mapbox-best-choice-for-geographic-data-visualization-599b514bcd9a
+
+Many traces on same plot in plotly express
+
+
+https://stackoverflow.com/questions/60910962/is-there-any-way-to-draw-india-map-in-plotly
+
+
+https://discuss.streamlit.io/t/ann-streamlit-folium-a-component-for-rendering-folium-maps/4367
+
+Need to learn 
+*********************
+
+
+1. TensorFlow 
+2. Keras
+3. PyTroch
+  4. Scikit-learn Python
+  5. Python Pandas
+  6 . NumPy Python
+
+frame = frame[500:700, 500:1300]
+
+
+Poly Line 
+*********
+
+https://stackoverflow.com/questions/57312028/problem-with-using-cv2-pointpolygontest-and-cv2-polylines
+
+
+CNN MODEL  *************
+
+IMAGE Classification 
+
+https://www.youtube.com/watch?v=ejkRh9obVjk
+
+https://www.youtube.com/watch?v=7MceDfpnP8k
+
+Data Augmentation
+*********************
+
+https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks
+
+
+Method 
+
+1. https://www.analyticsvidhya.com/blog/2021/08/image-classification-using-cnn-understanding-computer-vision/
+
+2. https://www.analyticsvidhya.com/blog/2021/06/develop-your-first-image-classification-project-with-convolutional-neural-network/
+
+3. https://www.analyticsvidhya.com/blog/2021/01/image-classification-using-convolutional-neural-networks-a-step-by-step-guide/
+
+
+
+Pre-Training Model
+
+https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
+
+DevOps
+https://www.edureka.co/blog/docker-commands/#run
+      
+      
+AI projects Details
+
+
+AI   VS    ML    VS    DL    vs    DATA-Science
+*******************************************
+https://www.youtube.com/watch?v=k2P_pHQDlp0
+https://www.geeksforgeeks.org/8-best-topics-for-research-and-thesis-in-artificial-intelligence/
+
+Machine Learning 
+****************************
+https://www.geeksforgeeks.org/machine-learning/
+https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article
+
+￼
+Supervised learning
+*********************
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+regression-classification
+**************************
+https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/
+
+Unsupervised Learning   in   clustering        
+****************************************
+https://www.geeksforgeeks.org/clustering-in-machine-learning/
+
+Reinforcement Learning 
+**************************
+https://www.youtube.com/watch?v=Mut_u40Sqz4
+
+Deep Learning 
+***********************
+Depp learning?
+****************
+https://www.youtube.com/watch?v=6M5VXKLf4D4
+
+Deep learning CNN
+*********************
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/convolutional-neural-network\
+
+Deep learning RNN
+*********************
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/rnn
+
+Deep learning GANs
+*********************
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/generative-adversarial-networks-gans
+
+
+Face Recognition 
+	
+		Face detection Method 
+		Liveness Detection
+		Face to binary encoding 
+		Face Matching 
+
+Face Detection Method or Algorithms 
+*****************************************
+https://bleedai.com/5-easy-effective-face-detection-algorithms-in-python/
+	
+Haar Cascade Face Detection 
+Dlip
+CNN
+DNN
+MTCNN
+Media-pipe
+
+Liveness Detection
+**********************
+ https://github.com/ee09115/spoofing_detection
+
+Face to binary encoding 
+**************************
+
+Face recognition
+Arc face
+Dlip
+Face net 
+Deep face
+Face Matching 
+****************
+
+
+NLP
+*****
+https://www.analyticsvidhya.com/blog/2022/01/roadmap-to-master-nlp-in-2022/
+
+https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/
+
+Text Preprocessing
+      
+
+
+
+Chatbot
+**************
+
+We have Two Method 
+
+
+First Method
+
+
+1.  https://www.youtube.com/watch?v=9KZwRBg4-P0    
+2. https://github.com/Sourabhhsethii/Building-a-simple-chatbot-in-python
+
+
+Second Method 
+
+1.  https://realpython.com/python-speech-recognition/
+
+
+Video link
+***********
+
+https://www.youtube.com/watch?v=SCk7onPrrwk
+
+				       
+				       
+				       
+				       
