@@ -1,0 +1,58 @@
+GIT DETAILS:
+***************
+How to install GitHub 
+sudo apt-get install git
+git —version
+sudo apt-get remove git
+GitHub web site settings 
+*************************
+
+Step 1:
+Create ssh key
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Add ssh key
+In your terminal ==   cd .ssh/    ==  ls
+
+We have  id_”random_name”_rsa    and      id_”random_name”_rsa.pub     == pub == public
+we using the public key     ===>    sudo vi id_file.pub      and copy that
+In your GitHub browser page we have settings ==> SSH AND GPG keys ===> New SSK key  === set name and past that .pub file copy
+Now its added 
+
+Step2:
+Create user access token
+GitHub page  == settings == developers settings == personal access tokens == Generate new token == Note and expiration (days) repo  and admin:gpg_key
+
+Copy to use
+
+Other comments 
+******************
+git config —global user.name “user_name”
+git config —global user.email “gmail@.com”
+
+Show name and email
+*************************
+Show all == sudo git config -l
+
+git config —global user.name
+ git config —global user.email
+
+https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+https://www.javatpoint.com/git-cheat-sheet
+
+Step 1:
+git clone
+
+Step 2:
+git add
+
+git status
+
+Step 3:
+git commit -m “message”
+
+Step 4:
+git push
+
